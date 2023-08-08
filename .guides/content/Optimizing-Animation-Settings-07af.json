@@ -1,0 +1,21 @@
+{
+	"id": "07afaeeb-3454-72e9-d834-e9ac58f5cf6b",
+	"title": "Optimizing Animation Settings",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "main.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

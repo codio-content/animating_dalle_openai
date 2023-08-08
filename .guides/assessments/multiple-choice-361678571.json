@@ -1,0 +1,63 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-361678571",
+	"source": {
+		"name": "angles",
+		"showName": false,
+		"instructions": "**\"Create a list of angles from 0 to 350 degrees in increments of 10 degrees and generate a corresponding image for each angle.\" How many angles are we generating ?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7e462728-cba7-6f19-fb64-24a1b3914b60",
+				"correct": true,
+				"answer": "36"
+			},
+			{
+				"_id": "73616bf8-d241-3332-c073-df1e5ed9e40f",
+				"correct": false,
+				"answer": "350"
+			},
+			{
+				"_id": "989914ae-b7c7-a802-d970-bbbd16b9d5c6",
+				"correct": false,
+				"answer": "5"
+			},
+			{
+				"_id": "4baaf3e8-35ea-f444-04d4-4d31bbb092e0",
+				"correct": false,
+				"answer": "26"
+			}
+		],
+		"guidance": "\nWe will be generating 36 angles in total.\nHere is the list of angles:\n\n0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"earth.py",
+				"main.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "earth.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

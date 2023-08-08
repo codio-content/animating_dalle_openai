@@ -1,0 +1,17 @@
+{
+	"id": "e97e0b3f-01b8-13cd-5848-f2a90435d01d",
+	"title": "Main File",
+	"files": [
+		{
+			"path": "main.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

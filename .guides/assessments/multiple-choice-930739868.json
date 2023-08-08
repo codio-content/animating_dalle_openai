@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-930739868",
+	"source": {
+		"name": "GIF animation",
+		"showName": false,
+		"instructions": "**Which of the following optimizations can be applied to a GIF animation to make it smoother and more visually appealing? (Select all that apply)**",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3b46dc46-9e1a-22dd-cf27-f0982ef78d1c",
+				"correct": true,
+				"answer": "Adjusting the frame duration"
+			},
+			{
+				"_id": "19010a6e-18e4-37ad-7e7f-8450dbcc2395",
+				"correct": false,
+				"answer": "Changing the loop count"
+			},
+			{
+				"_id": "e3978504-446c-703c-8015-7ba97e69ef50",
+				"correct": true,
+				"answer": "Adding crossfade transitions"
+			},
+			{
+				"_id": "26faf893-1a78-bad0-47de-a73c98c810a5",
+				"correct": true,
+				"answer": " Applying visual effects like brightness and contrast adjustments"
+			}
+		],
+		"guidance": "**Adjusting the frame duration** can make the animation appear faster or slower, allowing you to find the optimal speed for your animation.\n **Adding crossfade transitions** between consecutive images can create a smoother rotation effect, enhancing the overall appearance of the animation.\n**Applying visual effects** like brightness and contrast adjustments can make the animation more engaging and dynamic, showcasing the power and flexibility of the DALL-E 2 API.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"main.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "main.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

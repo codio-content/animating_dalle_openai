@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-921254939",
+	"source": {
+		"name": "optimize parameter to `True` in the save() method",
+		"showName": false,
+		"instructions": "**True or False**:\nSetting the optimize parameter to `True` in the `save()` method can help reduce the file size of the animation while maintaining visual quality.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6f968b4e-bc33-4a2c-5d33-4dd8b715dcc3",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "ca1c06b7-26ec-3185-e86f-ddab0a0f71c7",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "The `optimize` parameter, when set to `True`, enables image optimization in the `save()` method. This can help reduce the file size of the animation without significantly affecting the visual quality, resulting in a more efficient and visually appealing animation.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"main.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "main.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

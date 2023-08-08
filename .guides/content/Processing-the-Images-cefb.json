@@ -1,0 +1,21 @@
+{
+	"id": "cefbf80f-9518-279d-f2d0-e34377d22ffd",
+	"title": "Processing the Images",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "main.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

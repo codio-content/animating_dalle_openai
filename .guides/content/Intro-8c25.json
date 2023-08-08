@@ -1,0 +1,21 @@
+{
+	"id": "8c25c4dc-0031-2e1b-c90a-d193e336aaaf",
+	"title": "Intro",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "earth.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

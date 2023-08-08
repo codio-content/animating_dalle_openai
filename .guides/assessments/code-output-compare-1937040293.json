@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1937040293",
+	"source": {
+		"name": "Coding Exercise",
+		"showName": false,
+		"instructions": "Click the button below when ready to submit your code",
+		"command": "python .guides/secure/tester.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\nimport main\nfrom PIL import Image\n \nseasons = ['summer', 'autumn', 'winter', 'spring']\nimage_urls = []\n\nfor season in seasons:\n    prompt = f\"A well in the {season}\"\n    image_url = main.generate_base_image(prompt)\n    image_urls.append(image_url)\n\nimage_filenames = []\nfor i, image_url in enumerate(image_urls):\n    img = main.download_image(image_url, seasons[i])\n    image_filenames.append(f\"{seasons[i]}.jpg\")\n\nresized_images = []\nfor filename in image_filenames:\n    img = Image.open(filename)\n    resized_img = img.resize((256, 256), Image.ANTIALIAS)\n    resized_images.append(resized_img)\n\noutput_gif = \"well_seasons.gif\"\nresized_images[0].save(\n    output_gif,\n    save_all=True,\n    append_images=resized_images[1:],\n    duration=200,\n    loop=4,\n    optimize=True\n)\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Test passed! The well_seasons.gif file was successfully created.\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

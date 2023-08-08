@@ -1,0 +1,24 @@
+{
+	"title": "Animating Generated Images",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-Objectives-9a84",
+		"Main-File-e97e",
+		"Intro-8c25",
+		"Processing-the-Images-cefb",
+		"Optimizing-Animation-Settings-07af",
+		"Adding-Transitions-and-Visual-Effects-bcba",
+		"Coding-Exercise-70c5"
+	]
+}

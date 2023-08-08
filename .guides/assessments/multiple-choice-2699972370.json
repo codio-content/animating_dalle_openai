@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2699972370",
+	"source": {
+		"name": "Main purpose",
+		"showName": false,
+		"instructions": "**Which of the following statements is true regarding the use of `import main` in other Python files?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fa5f9610-c70b-e163-9769-3dc86f78d166",
+				"correct": false,
+				"answer": "It allows the other Python files to use the OpenAI API"
+			},
+			{
+				"_id": "883f4840-aebd-5459-69bf-13cc0bc34c10",
+				"correct": true,
+				"answer": "It gives the other Python files access to the functions defined in the `main` file"
+			},
+			{
+				"_id": "968ad022-07f5-0c52-6b5a-0b43e1ac06d5",
+				"correct": false,
+				"answer": "It sets the OpenAI API key for the other Python files"
+			},
+			{
+				"_id": "07b3f401-1d67-7d56-d6dd-e81af7429ec4",
+				"correct": false,
+				"answer": "It runs the main file's script in the other Python files"
+			}
+		],
+		"guidance": "By importing the main file, you gain access to its defined functions in the other Python files, and you can use them as needed.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"main.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "main.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
